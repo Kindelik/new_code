@@ -24,7 +24,7 @@ int Index0f(int[] collection, int find) //Метод - Example_010
 {
     int count = collection.Length;
     int index = 0;
-    int position = 0;
+    int position = -1;   // значение -1 на тот слуай если искомый элемент не будет найден
     while (index < count)
     {
         if(collection[index] == find)
